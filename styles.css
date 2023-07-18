@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto-400" , sans-serif;
+}
+body{
+    background: linear-gradient(#870000, #190A05);
+    color:white;
+}
+.title{
+    text-align: center;
+    margin: 50px;
+    font-size: 60px;
+}
+.img{
+    margin-top: 30px;
+}
+.header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-btn{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+ padding: 80px;
+ gap: 50px;
+ }
+.btn{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+    width: 400px;
+    border: solid white 2px;
+    border-radius: 50px;
+}
